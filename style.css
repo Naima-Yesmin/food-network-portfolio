@@ -1,13 +1,134 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+margin: 0px;
 }
-
-
-section{
+.first-section{
     display: flex;
+    background-color:paleturquoise ;
+    padding: 5%;
 }
 
+
+.half-width{
+    width: 50%;
+    
+   
+}  
+.header-first{
+    padding-top: 10%;
+}
+.first-image{
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+    
+}
+.second-image{
+    width: auto;
+    height: 530px;
+    }
+
+.header{
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
 #color-orange{
-    color: orange;
+    color: rgb(255, 81, 0);
+}
+
+.paragraph{
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+
+.link-button{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 30px;
+    border-radius:50px;
+}
+.second-section{
+    display: flex;
+    background-image: url(7.png);
+    padding: 5%;
+    background-repeat: no-repeat;
+}
+
+h2{
+    font-size: 40px;
+    font-family: serif;
+    
+}
+.header-align{
+    text-align: center;
+    font-family: serif;
+   
+}
+.my-recipies{
+    background-color: whitesmoke; 
+}  
+
+.third-section{
+    display: flex;
+    background-color: whitesmoke;
+  
+}
+.div-border{
+    box-shadow: 10px 10px 10px 10px gray;
+    width: 30%;
+    height: 10%;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: white;
+
+}
+.third-sec-img{
+    width: 330px;
+    height: 250px;
+    margin: 2%;
+}
+.fourth-section{
+    display: flex;
+    box-shadow:10px 10px 10px 10px gray;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 20px;
+    margin-top: 10%;
+    
+
+}
+.fourth-section-div{
+    height:10%; 
+    width: 30%;
+    
+  
+}
+.footer-section{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding: 5%;
+    margin-top: 8%;
+   
+} 
+h3{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.dark-orange{
+    color: orangered;
+}
+.copy-right{
+    color: white;
+    font-size: 15px;
 }
